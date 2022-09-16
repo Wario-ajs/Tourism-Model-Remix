@@ -1,6 +1,7 @@
 :root {
     --fonte-principal: 'Roboto';
-    --preto-fundo:  #252525;
+    --cinza: #7E7E7E;
+    --preto-fundo: #252525;
     --preto: #000;
     --branco: #FFF;
 }
@@ -49,4 +50,49 @@ body {
     border: 2.5px solid var(--branco);
     border-radius: 20px;
     background-color: rgb(0, 0, 0, 0.4);
+}
+
+/*=====conteudo principal=====*/
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--preto-fundo);
+    padding: 1.3rem 1rem 3rem 1rem;
+}
+
+.conteudo__lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.conteudo__container {
+    text-align: right;
+}
+
+.conteudo__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4.3rem;
+    margin-top: 2.5rem;
+    margin-right: 2.2rem;
+}
+
+.conteudo__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.conteudo__titulo {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.conteudo__texto {
+    color: var(--cinza);
+    line-height: 120%;
 }
