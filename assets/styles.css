@@ -1,0 +1,13 @@
+:root {
+    --fonte-principal: 'Roboto';
+    --preto-fundo:  #252525;
+    --preto: #000;
+    --branco: #FFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--branco)
+}
