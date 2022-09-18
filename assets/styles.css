@@ -26,6 +26,29 @@ body {
     margin: 1rem 1rem 3.1rem 1rem;
 }
 
+.navbar__menu-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.navbar__pesquisa--wrap {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.navbar__pesquisa--none {
+    display: none;
+}
+
+.fecha__pesquisa {
+    display: none;
+}
+
+.fecha__pesquisa-active {
+    display: block;
+}
+
 .banner__menu {
     display: none;
 }
@@ -58,7 +81,32 @@ body {
     font-size: 1rem;
     color: var(--branco);
     text-decoration: none;
-    
+}
+
+.banner__barra-pesquisa {
+    display: none;
+}
+
+.banner__barra-pesquisa-active {
+    display: block;
+}
+
+.banner__navbar--barra-pesquisa {
+    padding: 0.5rem;
+    border: 2.5px solid var(--branco);
+    background-color: rgb(0, 0, 0, 0.4);
+    color: var(--branco);
+    border-radius: 9px;
+}
+
+.banner__navbar--barra-pesquisa::placeholder {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    background-image: url("../assets/img/search-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 2em;
 }
 
 .banner__titulo {

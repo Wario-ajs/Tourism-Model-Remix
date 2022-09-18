@@ -16,7 +16,15 @@
     <header class="banner">
         <nav class="banner__navbar">
             <img src="assets/img/menu-icon.png" alt="Icone do menu" class="navbar__menu-icon">
-            <img src="assets/img/search-icon.png" alt="Icone da barra de pesquisa" class="navbar__pesquisa">
+            <div class="navbar__pesquisa--wrap">
+                <img src="assets/img/search-icon.png" alt="Icone da barra de pesquisa" class="navbar__pesquisa">
+                <div class="fecha__pesquisa">
+                    <p class="botao__fecha-pesquisa">X</p>
+                </div>
+                <div class="banner__barra-pesquisa">
+                    <input type="search" placeholder="Pesquisar..." class="banner__navbar--barra-pesquisa">
+                </div>
+            </div>
         </nav>
         <menu class="banner__menu">
             <ul class="menu__lista">
@@ -81,5 +89,6 @@
         </div>
     </footer>
     <script src="assets/index.js"></script>
+    <script src="assets/second.js"></script>
 </body>
 </html>
