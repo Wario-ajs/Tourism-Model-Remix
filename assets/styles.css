@@ -96,3 +96,28 @@ body {
     color: var(--cinza);
     line-height: 120%;
 }
+
+/*=====video=====*/
+
+.video {
+    background-color: var(--preto-fundo);
+}
+
+.video__img {
+    width: 100vw;
+}
+
+
+/*=====rodape=====*/
+
+.rodape {
+    background-color: var(--preto-fundo);
+    padding: 1rem;
+}
+
+.rodape__midias {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1em;
+}
