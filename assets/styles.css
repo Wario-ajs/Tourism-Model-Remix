@@ -35,6 +35,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1em;
+    cursor: pointer;
 }
 
 .navbar__pesquisa--none {
@@ -89,6 +90,7 @@ body {
 
 .banner__barra-pesquisa-active {
     display: block;
+    transition: 1s;
 }
 
 .banner__navbar--barra-pesquisa {
